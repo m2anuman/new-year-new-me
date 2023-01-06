@@ -4,7 +4,6 @@
 }
 
 /* Header Banner Styles */
-
 .header{
     background-image: url('../images/banner.jpg');
     background-repeat: no-repeat;
@@ -38,4 +37,36 @@
     background: rgb(232, 245, 253);
     border: 0;
     padding: 12px 20px;
+}
+
+/* Failure Section Styles */
+
+.failure{
+    display: flex;
+    align-items: center;
+}
+/* .failure-text{
+    gap: 50px;
+} */
+.failure .title{
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    padding-bottom: 10px;
+    
+}
+.failure .description{
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 416px;
+    height: 104px;
+    
+}
+.failure .list{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+li{
+    list-style-type: none;
 }
