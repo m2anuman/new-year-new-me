@@ -50,14 +50,15 @@ li{
 .failure{
     display: flex;
     align-items: center;
+    background-color: azure;
 }
 .failure .title{
+    color: rgb(43, 42, 51);
     font-weight: 700;
     font-size: 40px;
     width: 288px;
     margin-bottom: 24px;
-    padding-left: 40px;
-    
+    padding-left: 40px; 
 }
 .failure .description{
     font-size: 18px;
@@ -67,9 +68,32 @@ li{
 }
 .failure .list{
     font-size: 18px;
-    width: 500px;
-    
+    width: 500px;    
 }
 
 /* Success Section Styles */
 
+.success{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.success .title{
+    color: rgb(43, 42, 51);
+    font-weight: 700;
+    font-size: 40px;
+    width: 350px;
+    margin-bottom: 24px;
+    padding-left: 50px; 
+}
+.success .description{
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 500px;
+    padding-left: 50px;
+}
+.success .list{
+    font-size: 18px;
+    width: 450px;  
+    padding-left: 50px;
+}
