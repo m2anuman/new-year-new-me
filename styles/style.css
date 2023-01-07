@@ -97,3 +97,95 @@ li{
     width: 450px;  
     padding-left: 50px;
 }
+
+/* My Plan Styles */
+
+.plan-title{
+    padding-top: 100px;
+    color: rgb(43, 42, 51);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center; 
+}
+.all-plan{
+    display: flex;
+    margin: 0;
+    padding-left: 120px;
+}
+.plan{
+    text-align: center;
+    padding: 30px;
+    width: 280px;
+}
+.plan .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.plan .description{
+    font-size: 18px;
+}
+
+/* Always keep a positive mindset */
+.gradient{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 230px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 100px;
+}
+.gradient .title{
+    font-weight: 700;
+    font-size: 40px;
+    color: whitesmoke;
+    width: 500px;
+    margin: 60px 0px 0px 60px;
+}
+.btn-call{
+    color: rgb(239, 91, 34);
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: 0;
+    padding: 12px 20px;
+    margin: 30px 0px 0px 60px;
+}
+
+/* Footer */
+footer{
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    margin-top: 530px;
+}
+.contact-social{
+    color: white;
+    width: 485px;
+    height: 317px;
+    margin: 130px 0px 0px 230px;
+}
+.contact-social .title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.contact-social .description .email .phone{
+    font-size: 18px;
+}
+.contact-social .description{
+    padding-bottom: 24px;
+}
+.contact-social .email{
+    padding-bottom: 16px;
+}
+.contact-social .phone{
+    padding-bottom: 32px;
+}
